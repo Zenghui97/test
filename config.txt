@@ -1,0 +1,12 @@
+receptor = CASP9.pdbqt
+ligand = ligGinsenosideRg1.pdbqt
+
+center_x =21.0
+center_y = 42.0
+center_z = -14.0
+
+size_x = 46
+size_y = 50
+size_z = 46
+energy_range = 5
+num_modes = 20

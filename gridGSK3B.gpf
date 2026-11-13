@@ -1,0 +1,18 @@
+npts 50 64 74                        # num.grid points in xyz
+gridfld GSK3B.maps.fld               # grid_data_file
+spacing 0.375                        # spacing(A)
+receptor_types A C H HD N NA OA P SA # receptor atom types
+ligand_types A C HD N NA OA SA       # ligand atom types
+receptor GSK3B.pdbqt                 # macromolecule
+gridcenter 32.5 6.254 -8.6           # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map GSK3B.A.map                      # atom-specific affinity map
+map GSK3B.C.map                      # atom-specific affinity map
+map GSK3B.HD.map                     # atom-specific affinity map
+map GSK3B.N.map                      # atom-specific affinity map
+map GSK3B.NA.map                     # atom-specific affinity map
+map GSK3B.OA.map                     # atom-specific affinity map
+map GSK3B.SA.map                     # atom-specific affinity map
+elecmap GSK3B.e.map                  # electrostatic potential map
+dsolvmap GSK3B.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant
