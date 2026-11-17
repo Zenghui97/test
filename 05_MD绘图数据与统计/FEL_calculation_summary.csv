@@ -1,0 +1,7 @@
+﻿system,mode,temperature_K,input_frames,selected_frames,excluded_by_window,start_ns,end_ns,bins_xy,smoothing_sigma_bins,minimum_raw_bin_count,unobserved_bins,observed_bins,displayed_bins,raw_supported_max_kJ_mol,displayed_energy_max_kJ_mol,color_scale_max_kJ_mol,energy_cap_kJ_mol,clipped_bins,fill_unobserved_bins,reference_grid_verified,colormap,elevation_deg,azimuth_deg,projection_floor_kJ_mol
+GSK3beta-Rg1,RMSD_Rg,300.0,10001,10001,0,0.0,100.0,"[50, 50]",0.0,1,1401,1099,1099,9.656086827587242,9.656086827587242,9.656086827587242,,0,False,True,jet,28,-135,-1.2
+CASP9-Rg1,RMSD_Rg,300.0,10001,10001,0,0.0,100.0,"[50, 50]",0.0,1,1433,1067,1067,10.99185073481992,10.99185073481992,10.99185073481992,,0,False,True,jet,28,-135,-1.2
+BACE1-Rg1,RMSD_Rg,300.0,10001,10001,0,0.0,100.0,"[50, 50]",0.0,1,1551,949,949,11.110651224686748,11.110651224686748,11.110651224686748,,0,False,True,jet,28,-135,-1.2
+GSK3beta-Rg1,PC1_PC2,300.0,10001,10001,0,0.0,100.0,"[50, 50]",0.0,1,1333,1167,1167,9.439050975190947,9.439050975190947,9.439050975190947,,0,False,True,jet,28,-135,-1.2
+CASP9-Rg1,PC1_PC2,300.0,10001,10001,0,0.0,100.0,"[50, 50]",0.0,1,1231,1269,1269,10.961244966967708,10.961244966967708,10.961244966967708,,0,False,True,jet,28,-135,-1.2
+BACE1-Rg1,PC1_PC2,300.0,10001,10001,0,0.0,100.0,"[50, 50]",0.0,1,1365,1135,1135,10.04059084707615,10.04059084707615,10.04059084707615,,0,False,True,jet,28,-135,-1.2
